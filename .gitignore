@@ -1,6 +1,10 @@
 .gradle
 /build/
 !gradle/wrapper/gradle-wrapper.jar
+gradlew
+gradlew.bat
+.project
+
 
 ### STS ###
 .apt_generated
@@ -24,19 +28,11 @@ dist/
 nbdist/
 .nb-gradle/
 
-# Compiled class file
+
 *.class
-
-# Log file
 *.log
-
-# BlueJ files
 *.ctxt
-
-# Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
 *.ear
@@ -46,3 +42,8 @@ nbdist/
 *.swp
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#####具体文件##########
+
+hibernate.reveng.xml
+hibernate.cfg.xml
