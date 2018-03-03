@@ -1,0 +1,18 @@
+server:
+  port: 8088
+  context-path: /
+ 
+spring:
+   datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/hello?useSSL=false
+      username: root
+      password: 1234
+   jpa:
+     hibernate.ddl-auto: update
+     show-sql: true
+   jackson:
+    default-property-inclusion: non-null
+    date-format: yyyy-MM-dd HH:mm:ss
+    
+    
