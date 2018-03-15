@@ -29,7 +29,9 @@ public class TbTestController {
 	public String test2() throws JsonProcessingException {
 		TbTest test = new TbTest("kooy", "second", "c,d,f");
 		TbTest tb = repo.save(test);
-		System.out.println(tb.toString());
+		System.out.println(tb.getEnm());
+		System.out.println(tb.getList());
+		System.out.println(tb.getName());
 		return "tomcat2";
 	}
 
