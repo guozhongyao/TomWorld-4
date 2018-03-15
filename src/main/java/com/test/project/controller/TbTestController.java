@@ -25,4 +25,12 @@ public class TbTestController {
 		return "tomcat";
 	}
 
+	@RequestMapping(value = "tb/test/002")
+	public String test2() throws JsonProcessingException {
+		TbTest test = new TbTest("kooy", "second", "c,d,f");
+		TbTest tb = repo.save(test);
+		System.out.println(tb.toString());
+		return "tomcat2";
+	}
+
 }

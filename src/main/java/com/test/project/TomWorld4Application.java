@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+// @EnableAsync
+// @EnableScheduling
 public class TomWorld4Application {
 
 	public static void main(String[] args) {
